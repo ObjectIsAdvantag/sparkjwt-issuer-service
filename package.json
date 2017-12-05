@@ -1,0 +1,19 @@
+{
+  "name": "sparkjwt-issuer-service",
+  "version": "0.1.0",
+  "description": "Web API Resource that generate JWT tokens for Cisco Spark AppId (Guest Mode)",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "uuid": "^3.1.0"
+  },
+  "keywords": [
+    "jwt",
+    "ciscospark"
+  ],
+  "author": "Stève Sfartz <stsfartz@cisco.com>",
+  "license": "MIT"
+}
